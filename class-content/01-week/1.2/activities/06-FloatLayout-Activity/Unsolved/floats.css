@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: white;
 }
 
 header {
@@ -17,26 +18,56 @@ header {
   background: #ccc;
 }
 
-section {
+section { 
+  
 }
 
 #left {
+
+  width: 33%;
+  float: left;
+  background-color: #666;
+  padding: 30px;
+  color:#fff;
 }
 
 #middle {
+  width: 33%;
+  float: left;
+  background-color: #888;
+  padding:30px;
+  color:#fff;
 }
 
 #right {
+  width:33%;
+  float:left;
+  background-color:#666;
+  padding:30px;
 }
 
 #full {
+  width: 100%;
+  background-color: #eee;
+  padding: 100px;
 }
 
 #division {
+  width: 100%;
+  background-color: #6ea3da;
+  padding: 20px;
 }
 
 aside {
+  width: 40%;
+  background-color: #fff;
+  padding:20px;
 }
 
 footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
 }
+
