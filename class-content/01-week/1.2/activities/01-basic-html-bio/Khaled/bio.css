@@ -1,0 +1,35 @@
+h1 {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+.text {
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+li a {
+    font-weight: normal;
+    color: red;
+}
