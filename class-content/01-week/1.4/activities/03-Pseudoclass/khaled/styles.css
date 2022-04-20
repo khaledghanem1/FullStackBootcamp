@@ -1,0 +1,15 @@
+a {
+    color:green;
+}
+a:hover {
+    font-size:50px;
+    color:red;
+}
+a:active {
+    font-size:70px;
+    color:pink;
+}
+a:focus {
+    font-weight:800;
+    color:blueviolet;
+}
