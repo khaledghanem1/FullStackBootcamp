@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conditional Demo</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+        var confirmsteak = confirm("do you eat steak?");
+        var confirmage = prompt("whats your birth year?")
+        var age = 2022 - confirmage;
+
+            if(confirmsteak) {
+              document.write("Here's a steak sandwich!")
+               
+            }
+            
+            else{
+                document.write("Here’s a Tofu Stir-Fry!")
+            }
+
+
+            if (age < 21) {
+                alert(" No sake for you!"+ age)
+
+            }
+
+
+
+    </script>
+
+  </body>
+</html>
