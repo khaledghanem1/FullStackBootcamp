@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      Data Types, User Input, Conditional Logic
+    </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      var userAge = prompt("How old are you?");
+      var confirmCar = confirm("Do you like cars?");
+       
+      var carType = "4*4";
+      var carPower = 400;
+      var carModel = 2022
+      var carIsVehicle= true;
+
+      if (confirmCar) {
+        alert(carType + " " + carPower + " " + carModel);
+      }
+      else {
+        alert("You don't get my car's information");
+      }
+
+      if (carIsVehicle) {
+        alert("My car is a vehicle");
+      }
+      else {
+        alert("My car is not a vehicle");
+      }
+
+      if (carPower !== 600) {
+        alert("My car power is not 600 ");
+      }
+
+      if (carModel === 2022) {
+        alert("My is car 2022");
+      }
+      else if (carPower < 2022) {
+        alert("My pet is is older than 2022");
+      }
+      else if (carPower > 2022) {
+        alert("My pet is newer than 5 years old");
+      }
+
+      // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
+      document.write("Welcome to our page " + userName);
+
+      var catAge = prompt("How old is your cat?");
+
+      // Won't work as expected
+      alert(catAge + 2);
+
+      // Works as expected
+      alert(parseInt(catAge) + 2);
+      
+    </script>
+  </body>
+</html>
