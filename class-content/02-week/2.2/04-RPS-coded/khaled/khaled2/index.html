@@ -3,13 +3,28 @@
 <body>
     <div id="game"></div>
     <script>
-         
+      var wins = 0;
+   
+        var computerChoices = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"] 
         document.onkeyup = function(event){
-            console.log(event.key)
-            document.querySelector("#game").innerHTML = event.key;
+            var userChoice = event.key;
+            var computerChoice = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+            if (userChoice === computerChoice){
+                console.log("user wins ", userChoice, computerChoice)
+                wins++
+             } else {
+                 console.log("user looses", userChoice, computerChoice)
+                 wins--;
+             }
 
+             var html = "<p>Press any letter to start playing!</p>" +
+          "<p>Wins: " + wins + "</p>" +
+          "<p>User Choice: " + userChoice + "</p>" +
+          "<p> Computer Choice:" + computerChoice +"</p>";
+          
+
+          document.querySelector("#game").innerHTML = html;
         }
-
 
 
 
