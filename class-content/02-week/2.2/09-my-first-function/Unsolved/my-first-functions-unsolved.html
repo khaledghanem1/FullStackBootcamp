@@ -15,25 +15,58 @@
 
       // Create a Function called "adder" that take three arguments (x, y, z).
       // The function should add the arguments together, and log the result to the console.
-
-
+      function adder(x,y,z) {
+        console.log("add ", x + y + z)
+        
+      }
+      adder(1,1,1)
+      adder(1,1,2)
+      adder(1,1,"hi")
+      adder(4,4,-1)
+      adder(4,4,0.2)
       // Create a Function called "multiplier" that takes three arguments (x, y, z).
       // The function should multiply the arguments, and log the result to the console.
-
+        function multiplier(x,y,z) {
+          console.log("Multiply ", x * y * z)
+        }
+        multiplier(2,2,-2)
 
       // Create a Function called "isString" that takes three arguments (x, y, z).
       // "isString" determines if all three arguments are strings and logs an appropriate response to the console.
-
-
+        function isString(x,y,z) {
+          console.log(x, (typeof x === 'string'),y, (typeof y === 'string'),z,(typeof z === 'string'))
+        }
+        isString(1,1,1)
+        isString("x","y","z")
+        isString("1",1,true)
       // Create a Function called "vowelChecker" that takes in a single argument (x).
-      // "vowlChecker" logs whether or not the input is a vowel.
+      // "vowelChecker" logs whether or not the input is a vowel.
+      function vowelChecker(letter){
+        if (letter === "a" || letter ==="e" || letter === "i" || letter === "o" || letter === "u" ){
+          console.log(letter + " Is a vowel")
+        } else {
+          console.log(letter + " Is not a vowel")
+        }
+      }
+      vowelChecker("a")
+      vowelChecker("i")
+      vowelChecker("l")
+      vowelChecker("q")
+
+
 
 
       // BONUS
       // Creates a version of "adder" that returns its result. Function is called "adderReturn".
-
+      function adderReturn() {
+        return x + y + z;
+}
 
       // Creates a version of "multiplier" that returns its result. Function is called "multiplierReturn".
+      function myFunction(a, b) {
+        return a * b;
+}
+
 
 
       // FUNCTION EXECUTION
@@ -45,25 +78,25 @@
       // Call the adder function here.
 
 
-      console.log("-------------------");
+      console.log(adder);
 
 
       // Call the multiplier function here.
 
 
-      console.log("-------------------");
+      console.log(multiplier)
 
 
       // Call the isString function here.
 
 
-      console.log("-------------------");
+      console.log(isString);
 
 
       // Call the vowelChecker function here.
 
 
-      console.log("-------------------");
+      console.log(vowelChecker);
 
 
       // BONUS
