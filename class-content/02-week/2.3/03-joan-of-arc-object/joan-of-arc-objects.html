@@ -13,12 +13,25 @@
       "Grew Up Where": "Domremy, a village in northeastern France.",
       "Known For": "Peasant girl, daughter of a farmer, who rose to become Commander of the French army.",
       Scars: "Took an arrow to the shoulder and a crossbow bolt to the thigh while liberating Paris.",
-      Symbolism: "Stands for French unity and nationalism."
+      Symbolism: "Stands for French unity and nationalism.",
+      Family: {
+        Siblings: 3,
+        Parents: 2
+      },
+      alertSomething: function() {
+        alert("something")
+      } 
     };
     console.log('Scars', joan.Scars);
     console.log('First nickname', joan.Nicknames[0]);
     console.log('Second nickname', joan.Nicknames[1]);
     console.log('Real name', joan['Real Name'])
+    console.log("Grew Up Where", joan["Grew Up Where"])
+    console.log(joan.Symbolism)
+    console.log(joan.Nicknames)
+    console.log(joan.Nicknames[2])
+    console.log(joan["Known For"])
+
     </script>
   </body>
 </html>
