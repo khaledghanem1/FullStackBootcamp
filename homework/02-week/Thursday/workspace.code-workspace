@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\Favorite-Animal"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FullStackBootcamp"
+	}
+}
